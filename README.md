@@ -10,8 +10,8 @@ https://github.com/iteapoy/GANDenoising
 * [代码结构](#代码结构)
 * [环境搭建](#环境搭建)
 * [使用方法&可能遇到的问题](#使用方法&可能遇到的问题)
-	*	  [训练](#训练)
-	*	  [测试](#测试)
+	* [训练](#训练)
+	* [测试](#测试)
 * [感谢](#感谢)
 
 Table of Contents
@@ -68,15 +68,15 @@ Table of Contents
 1. 噪声程度为15时的去噪效果：
 左：原图，中：噪声图，右：去噪图像
 
-<img width = '150' height ='150' src ="readme_img\result1.png">
-<img width = '150' height ='150' src ="readme_img\result2.png">
+<img width = '250' src ="readme_img\result1.png">
+<img width = '250' src ="readme_img\result2.png">
 直方图对lena去噪效果的统计：
-<img width = '150' height ='150' src ="readme_img\hist.png">
+<img width = '250' src ="readme_img\hist.png">
 
 2. 噪声程度为25时的去噪效果：
    左：原图，中：噪声图，右：去噪图像
-<img width = '150' height ='150' src ="readme_img\result3.png">
-<img width = '150' height ='150' src ="readme_img\result4.png">
+<img width = '250' src ="readme_img\result3.png">
+<img width = '250' src ="readme_img\result4.png">
 
 
 
@@ -84,14 +84,14 @@ Table of Contents
 
 PSNR随迭代次数的变化：
 
-<img width = '150' height ='150' src ="readme_img\psnr-result.png">
+<img width = '250' src ="readme_img\psnr-result.png">
 
 SSIM随迭代次数的变化：
 
-<img width = '150' height ='150' src ="readme_img\ssim-result.png">
+<img width = '250' src ="readme_img\ssim-result.png">
 
 与其它方法的比较：
-<img width = '150' height ='150' src ="readme_img\WGAN.jpg">
+<img width = '250' src ="readme_img\WGAN.jpg">
 
 ### 代码结构
 
