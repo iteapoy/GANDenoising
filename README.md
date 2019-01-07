@@ -69,14 +69,14 @@ Table of Contents
 左：原图，中：噪声图，右：去噪图像
 
 <img src ="readme_img\result1.png">
-<img width = '250' src ="readme_img\result2.png">
+<img src ="readme_img\result2.png">
 直方图对lena去噪效果的统计：
-<img width = '250' src ="readme_img\hist.png">
+<img src ="readme_img\hist.png">
 
 2. 噪声程度为25时的去噪效果：
    左：原图，中：噪声图，右：去噪图像
-<img width = '250' src ="readme_img\result3.png">
-<img width = '250' src ="readme_img\result4.png">
+<img src ="readme_img\result3.png">
+<img src ="readme_img\result4.png">
 
 
 
@@ -84,14 +84,14 @@ Table of Contents
 
 PSNR随迭代次数的变化：
 
-<img width = '250' src ="readme_img\psnr-result.png">
+<img src ="readme_img\psnr-result.png">
 
 SSIM随迭代次数的变化：
 
-<img width = '250' src ="readme_img\ssim-result.png">
+<img src ="readme_img\ssim-result.png">
 
 与其它方法的比较：
-<img width = '250' src ="readme_img\WGAN.jpg">
+<img src ="readme_img\WGAN.jpg">
 
 ### 代码结构
 
