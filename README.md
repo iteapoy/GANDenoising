@@ -66,14 +66,17 @@ Table of Contents
 ### 实验结果
 
 1. 噪声程度为15时的去噪效果：
+
 左：原图，中：噪声图，右：去噪图像
 
 <img src ="readme_img\result1.png">
 <img src ="readme_img\result2.png">
+
 直方图对lena去噪效果的统计：
 <img src ="readme_img\hist.png">
 
 2. 噪声程度为25时的去噪效果：
+
    左：原图，中：噪声图，右：去噪图像
 <img src ="readme_img\result3.png">
 <img src ="readme_img\result4.png">
@@ -190,7 +193,7 @@ SSIM随迭代次数的变化：
    假设想要去噪的图像为 noisy.png，请先确保它的大小是256*256的RGB图像。
 
    Checkpoints文件夹中应该包含至少4个文件：
-​      - **-xxxx.data-00000-of-00001**
+   - **-xxxx.data-00000-of-00001**
    - **-xxxx.index**
    - **-xxxx.meta**
    - **checkpoint**
@@ -213,7 +216,6 @@ SSIM随迭代次数的变化：
    并确保Checkpoints文件夹中含有：
    - **-2500.data-00000-of-00001**
    -   **-2500.index**
-
    - **-2500.meta**
 
    另外，原有的-2490是对噪声程度15的去噪模型，文件夹\Checkpoints\25中是对噪声程度25的去噪模型。更换模型，请删除原有的去噪模型，并把\Checkpoints\25中的文件复制到\Checkpoints中。
