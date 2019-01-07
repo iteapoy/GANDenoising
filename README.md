@@ -68,7 +68,7 @@ Table of Contents
 1. 噪声程度为15时的去噪效果：
 左：原图，中：噪声图，右：去噪图像
 
-<img width = '250' src ="readme_img\result1.png">
+<img src ="readme_img\result1.png">
 <img width = '250' src ="readme_img\result2.png">
 直方图对lena去噪效果的统计：
 <img width = '250' src ="readme_img\hist.png">
