@@ -199,6 +199,7 @@ SSIM随迭代次数的变化：
    - **checkpoint**
 
    Checkpoints下载地址：https://jbox.sjtu.edu.cn/l/onFbdH
+   **新链接： https://pan.baidu.com/s/16cz8IZw8GRtW9C4JBItLBA 提取码: xttv **
 
    说明：
 
