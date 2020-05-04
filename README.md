@@ -197,10 +197,8 @@ SSIM随迭代次数的变化：
    - **-xxxx.index**
    - **-xxxx.meta**
    - **checkpoint**
-
-   Checkpoints下载地址：https://jbox.sjtu.edu.cn/l/onFbdH
    
-   **新链接： https://pan.baidu.com/s/16cz8IZw8GRtW9C4JBItLBA 提取码: xttv **
+   Checkpoints下载地址：https://pan.baidu.com/s/16cz8IZw8GRtW9C4JBItLBA 提取码: xttv 
 
    说明：
 
@@ -249,7 +247,7 @@ The code achieves denoising 256*256 RGB images.
 
 &nbsp;
 
-### Directory
+### Folder tree
 
 ```
 ├─Checkpoints
@@ -344,7 +342,7 @@ The code achieves denoising 256*256 RGB images.
   > ​    raise ValueError("GraphDef cannot be larger than 2GB.")
   > ValueError: GraphDef cannot be larger than 2GB.
 
-  Actually, this is not an error. As the checkpoint of the model you previously trained has been stored in the directory **Checkpoints**, you may just rerun `python3 train.py`(**！！！DON'T CLEAR CHECKPOINTS**). The code will restore the last checkpoint and continue to run.
+  Actually, this is not an error. As the checkpoint of the model you previously trained has been stored in the folder **Checkpoints**, you may just rerun `python3 train.py`(**！！！DON'T CLEAR FOLDER CHECKPOINTS**). The code will restore the last checkpoint and continue to run.
 
   &nbsp;
 
@@ -357,7 +355,7 @@ The code achieves denoising 256*256 RGB images.
 
      You can try:
 
-     (1) Clear the directory **Checkpoints**, and rerun `python3 train.py`
+     (1) Clear the folder **Checkpoints**, and rerun `python3 train.py`
 
      (2) If the loss is still NAN, please go back to (1)
 
